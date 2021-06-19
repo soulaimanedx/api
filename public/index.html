@@ -1,0 +1,41 @@
+<html>
+
+<head>
+  <title>Express</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body class="bg-light">
+
+  <nav class="topmenu navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">BESTIRI</a>
+    <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        
+        <li class="nav-item active">
+          <!-- <a class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a> -->
+          <a class="nav-link" href="#home">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#users">Users</a>
+        </li>
+      </ul>
+
+      <form class="form-inline my-2 my-lg-0 d-none">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div id="app"></div>
+  <script src="/javascripts/app.js"></script>
+
+</body>
+
+</html>
